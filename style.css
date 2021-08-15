@@ -65,7 +65,7 @@ video{
 	padding: 40px;
 	margin-left: 50px;
 	align-items: stretch;
-	border: 0.01px solid rgba(0, 0, 0, 0.2);
+	border: 0.1px solid rgba(0, 0, 0, 0.2);
 	border-radius: 5px;
 	height: 50px;
 	width: auto;
@@ -73,6 +73,7 @@ video{
 	position: relative;
 	top: 0;
 	transition: top 0.5s;
+	align-items: center;
 	}
 .theme img:hover {
 	top: 10px;
@@ -88,6 +89,7 @@ video{
 .theme li{
 	list-style: none;
 	display: inline-block;
+	
 }
 
 .theme p{
